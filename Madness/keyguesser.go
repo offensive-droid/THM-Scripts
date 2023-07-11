@@ -57,7 +57,7 @@ func main() {
  |_|\_\___|\__, |  \_____|\__,_|\___||___/___/\___|_|
             __/ |
            |___/
-                | Made By Droid |
+                | Made By OffensiveDroid |
 ---------------------------------------------------------  
 Usage: ./guess <ip> <concurrency>`)
 		os.Exit(1)
