@@ -20,7 +20,7 @@ type Guess struct {
 
 func (g *Guess) guessKey(wg *sync.WaitGroup) {
 	defer wg.Done()
-	for i := 0; i <= 255; i++ {
+	for i := 0; i <= 99; i++ {
 		resp, err := http.Get("http://" + g.ip + "/th1s_1s_h1dd3n/?secret=" + strconv.Itoa(i))
 		if err != nil {
 			log.Fatal(err)
